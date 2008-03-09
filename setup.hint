@@ -1,0 +1,6 @@
+category: PHP
+requires: cygwin php libyaz3
+sdesc: "PHP Z39.50 extension"
+ldesc: "PHP/YAZ is an extension to the popular web server language PHP 
+that implements Z39.50 origin (client) functionality as well as the 
+SRW/SRU protocols."

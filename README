@@ -1,0 +1,66 @@
+php-yaz
+------------------------------------------
+PHP/YAZ is an extension to the popular web server language PHP that 
+implements Z39.50 origin (client) functionality as well as the SRW/SRU 
+protocols.
+
+Runtime requirements:
+  cygwin-1.5.25-7
+  libyaz3-3.0.16-1
+  php-5.2.5-1
+
+Build requirements:
+(besides corresponding -devel packages)
+  autoconf2.5-2.61-1
+  automake1.9-1.9.6-2
+  binutils-20060817-1
+  cygport-0.3.8-1
+  gawk-3.1.6-1
+  gcc-core-3.4.4-3
+  libtool1.5-1.5.23a-2
+  make-3.81-1
+  php-pear-5.2.5-1
+  sed-4.1.5-2
+
+Canonical website:
+  http://pecl.php.net/package/yaz/
+  http://indexdata.dk/phpyaz/
+
+Canonical download:
+  http://pecl.php.net/get/yaz
+
+-------------------------------------------
+
+Build instructions:
+  unpack php-yaz-1.0.14-X-src.tar.bz2
+    if you use setup to install this src package, it will be
+	 unpacked under /usr/src automatically
+  cd /usr/src
+  cygport ./php-yaz-1.0.14-X.cygport all
+
+This will create:
+  /usr/src/php-yaz-1.0.14-X-src.tar.bz2
+  /usr/src/php-yaz-1.0.14-X.tar.bz2
+
+-------------------------------------------
+
+Files included in the binary package:
+
+  /etc/php5/conf.d/yaz.ini
+  /usr/lib/php/20060613/yaz.dll
+  /usr/share/doc/php-yaz-1.0.14/CREDITS
+  /usr/share/doc/php-yaz-1.0.14/README
+  /usr/share/pear/.registry/.channel.pecl.php.net/yaz.reg
+  /usr/share/pear/doc/yaz/CREDITS
+  /usr/share/pear/doc/yaz/README
+
+------------------
+
+Port Notes:
+
+----- version 1.0.14-1 -----
+Initial release for Cygwin.
+
+
+Cygwin port maintained by:
+http://cygwinports.dotsrc.org/
